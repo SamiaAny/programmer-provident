@@ -15,9 +15,9 @@ const Employee = (props) => {
             </div>
             <div>
                 <p><strong>Name: </strong>{name}</p>
-                <p><strong>email: </strong>{email}</p>
-                <p><strong>designation: </strong>{designation}</p>
-                <p><strong>salary: </strong>${salary}</p>
+                <p><strong>Email: </strong>{email}</p>
+                <p><strong>Designation: </strong>{designation}</p>
+                <p><strong>Salary: </strong>${salary}</p>
                 <p><strong>Funded: </strong>${funded}</p>
                 <button onClick={() => props.handleAddAmount(props.employee)} className="btn-regular">{element} Add amount</button>
             </div>

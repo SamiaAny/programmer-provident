@@ -1,16 +1,17 @@
 .main-container {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    margin-top: 30px;
+    margin: 30px auto;
 }
 .employers-container {
     /* margin-left: 10%; */
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 25px;
+    margin-right: 20px;
 }
 
 .funds-container {
-    margin-left: 10px;
+    margin-left: 30px;
     text-align: center;
 }
