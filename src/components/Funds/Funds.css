@@ -1,0 +1,7 @@
+.employee-name {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 200px;
+    line-height: 50px;
+    margin: 15px auto;
+}

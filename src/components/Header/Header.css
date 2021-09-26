@@ -1,0 +1,16 @@
+.header-intro {
+    background-color: #333333;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
+
+.header-brand {
+    margin: 0;
+    font-weight: 500;
+}
+
+.header-intro h2 {
+    font-weight: 400;
+}
+

@@ -1,0 +1,32 @@
+.employee {
+    /* border: 1px solid lightgray; */
+    box-shadow: 5px 5px 20px lightgray;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.employee-img {
+    display: flex;
+    justify-content: center;
+}
+.employee-img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.btn-regular {
+    background-color: indigo;
+    border: none;
+    border-radius: 15px;
+    color: #FFFFFF;
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+.fa-plus {
+    margin-right: 5px;
+}
