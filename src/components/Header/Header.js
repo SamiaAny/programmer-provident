@@ -7,7 +7,7 @@ const Header = () => {
             <div className="header-intro">
                 <h1 className="header-brand">Programmer Provident</h1>
                 <p>Make fund for non-profit organization</p>
-                <h2>Total Budget : 100K</h2>
+                <h2>Targetd Amount : 100K</h2>
             </div>
         </div>
     );

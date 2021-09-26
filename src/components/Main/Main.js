@@ -6,17 +6,19 @@ import './Main.css';
 const Main = () => {
     const [employees,setEmployees] = useState([]);
     const [fundsInfo,setFundsInfo] = useState([]);
+
     useEffect(() => {
         fetch('./output.JSON')
             .then(res => res.json())
             .then(data => setEmployees(data));
     },[]);
 
+    //handler function
     const handleAddAmount = (result) => {
-        // console.log(result);
         const addNew = [...fundsInfo,result];
         setFundsInfo(addNew);
     }
+    
     return (
         <div className="main-container">
             <div className="employers-container">
